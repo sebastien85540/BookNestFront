@@ -1,4 +1,5 @@
 import './App.css';
+import GetEmprunts from './components/GetEmprunts';
 import HeaderReact from './components/HeaderReact';
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
       <header className="App-header">
       </header>
       <HeaderReact title="test" content="testcontent"/>
-        <a href="https://reactjs.org">Learn React</a>
+      <GetEmprunts />
     </div>
   );
 }
 
 export default App;
+
