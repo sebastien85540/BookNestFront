@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import HeaderReact from './components/HeaderReact';
 
@@ -8,6 +7,7 @@ function App() {
       <header className="App-header">
       </header>
       <HeaderReact title="test" content="testcontent"/>
+        <a href="https://reactjs.org">Learn React</a>
     </div>
   );
 }
